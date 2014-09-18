@@ -1,12 +1,30 @@
-*.class
+.idea
+*.iws
+*.ipr
+*.iml
+*.merge*
+catalog.xml
+target
+.settings
+.classpath
+.project
+.idea
+.sonar-ide.properties
+nbactions.xml
+nb-configuration.xml
+nbactions.xml
+/web-core/src/main/java/META-INF
+/war-core/src/main/webapp/META-INF
+/ejb-core/channels/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/pdc/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/publication/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/node/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/versioning/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/calendar/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/questioncontainer/src/main/resources/META-INF/MANIFEST.MF
+web-core/@ErrorDir@/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+/ejb-core/formtemplate/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/searchengine/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/statistic/src/main/resources/META-INF/MANIFEST.MF
+/ejb-core/silverstatistics/src/main/resources/META-INF/MANIFEST.MF
