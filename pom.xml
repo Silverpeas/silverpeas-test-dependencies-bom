@@ -45,6 +45,25 @@
     <tag>HEAD</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>silverpeas</id>
+      <name>Repository Silverpeas</name>
+      <layout>default</layout>
+      <url>http://www.silverpeas.org/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>silverpeas-snapshots</id>
+      <name>Snapshots Repository Silverpeas</name>
+      <layout>default</layout>
+      <url>http://www.silverpeas.org/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    <site>
+      <id>silverpeas_repository</id>
+      <url>scp://www.silverpeas.org/var/www/docs</url>
+    </site>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
