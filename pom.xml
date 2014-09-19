@@ -36,6 +36,7 @@
   <packaging>pom</packaging>
   <name>Silverpeas Test Dependencies BOM</name>
   <description>A BOM with all the dependencies required to build and run the unit and the integration tests of Silverpeas</description>
+  <url>http://www.silverpeas.org</url>
 
   <scm>
     <connection>scm:git:git@github.com:Silverpeas/silverpeas-test-dependencies-bom.git</connection>
@@ -58,10 +59,6 @@
       <layout>default</layout>
       <url>http://www.silverpeas.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
-    <site>
-      <id>silverpeas_repository</id>
-      <url>scp://www.silverpeas.org/var/www/docs</url>
-    </site>
   </distributionManagement>
 
   <dependencyManagement>
