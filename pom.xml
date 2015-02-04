@@ -167,6 +167,14 @@
         <scope>test</scope>
       </dependency>
       <!-- LDAP test dependencies END -->
+
+      <!-- Mail -->
+      <dependency>
+        <groupId>com.icegreen</groupId>
+        <artifactId>greenmail</artifactId>
+        <version>1.4.0</version>
+        <scope>test</scope>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
