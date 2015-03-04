@@ -94,12 +94,6 @@
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.glassfish.jersey.core</groupId>
-        <artifactId>jersey-common</artifactId>
-        <version>2.5.1</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
         <groupId>com.ninja-squad</groupId>
         <artifactId>DbSetup</artifactId>
         <version>${dbsetup.version}</version>
@@ -175,6 +169,13 @@
         <version>1.4.0</version>
         <scope>test</scope>
       </dependency>
+
+      <!-- resteasy-jaxrs API -->
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jaxrs</artifactId>
+        <version>${resteasy.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -183,6 +184,7 @@
     <wildfly.version>8.2.0.Final</wildfly.version>
     <mokito.version>1.9.5</mokito.version>
     <dbsetup.version>1.3.0</dbsetup.version>
+    <resteasy.version>3.0.10.Final</resteasy.version>
   </properties>
 
 </project>
