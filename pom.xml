@@ -203,6 +203,14 @@
         <version>3.1.2</version>
         <scope>test</scope>
       </dependency>
+
+      <!-- READ BEANS BY AN EASY WAY -->
+      <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>1.9.2</version>
+        <scope>test</scope>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
