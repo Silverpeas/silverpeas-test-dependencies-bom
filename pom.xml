@@ -118,6 +118,12 @@
       </dependency>
       <!-- end TODO -->
       <dependency>
+      	<groupId>org.jboss.spec</groupId>
+      	<artifactId>jboss-javaee-all-7.0</artifactId>
+      	<version>1.0.3.Final</version>
+      	<scope>test</scope>
+      </dependency>
+      <dependency>
         <groupId>org.jboss.arquillian.junit</groupId>
         <artifactId>arquillian-junit-core</artifactId>
         <version>1.1.8.Final</version>
