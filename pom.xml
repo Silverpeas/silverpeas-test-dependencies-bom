@@ -126,25 +126,25 @@
       <dependency>
         <groupId>org.jboss.arquillian.junit</groupId>
         <artifactId>arquillian-junit-core</artifactId>
-        <version>1.1.11.Final</version>
+        <version>${arquillian.version}</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.wildfly.arquillian</groupId>
         <artifactId>wildfly-arquillian-container-managed</artifactId>
-        <version>1.1.0.Final</version>
+        <version>${arquillian.wildfly.version}</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.core</groupId>
         <artifactId>arquillian-core-api</artifactId>
-        <version>1.1.11.Final</version>
+        <version>${arquillian.version}</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.junit</groupId>
         <artifactId>arquillian-junit-container</artifactId>
-        <version>1.1.11.Final</version>
+        <version>${arquillian.version}</version>
         <scope>test</scope>
       </dependency>
       <dependency>
@@ -225,6 +225,8 @@
     <mokito.version>1.10.19</mokito.version>
     <dbsetup.version>1.6.0</dbsetup.version>
     <resteasy.version>3.0.11.Final</resteasy.version>
+    <arquillian.version>1.1.11.Final</arquillian.version>
+    <arquillian.wildfly.version>2.0.0.Final</arquillian.wildfly.version>
   </properties>
 
 </project>
