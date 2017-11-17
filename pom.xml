@@ -98,9 +98,9 @@
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>com.jayway.awaitility</groupId>
+        <groupId>org.awaitility</groupId>
         <artifactId>awaitility</artifactId>
-        <version>1.6.3</version>
+        <version>3.0.0</version>
       </dependency>
       <!-- TODO to be removed later in profit of DbSetup -->
       <dependency>
@@ -118,7 +118,7 @@
       <dependency>
       	<groupId>org.jboss.spec</groupId>
       	<artifactId>jboss-javaee-all-7.0</artifactId>
-      	<version>1.0.3.Final</version>
+        <version>1.1.0.Final</version>
       	<scope>test</scope>
       </dependency>
       <dependency>
@@ -132,6 +132,11 @@
         <artifactId>wildfly-arquillian-container-managed</artifactId>
         <version>${arquillian.wildfly.version}</version>
         <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.arquillian</groupId>
+        <artifactId>wildfly-arquillian-container-remote</artifactId>
+        <version>${arquillian.wildfly.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.core</groupId>
@@ -148,7 +153,7 @@
       <dependency>
         <groupId>org.jboss.shrinkwrap.resolver</groupId>
         <artifactId>shrinkwrap-resolver-impl-maven</artifactId>
-        <version>2.2.2</version>
+        <version>3.0.0</version>
         <scope>test</scope>
       </dependency>
       <dependency>
@@ -188,7 +193,7 @@
       <dependency>
         <groupId>com.icegreen</groupId>
         <artifactId>greenmail</artifactId>
-        <version>1.4.0</version>
+        <version>1.5.5</version>
         <scope>test</scope>
       </dependency>
 
@@ -204,7 +209,14 @@
       <dependency>
         <groupId>org.jglue.cdi-unit</groupId>
         <artifactId>cdi-unit</artifactId>
-        <version>3.1.2</version>
+        <version>4.0.1</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jboss.weld.se</groupId>
+        <artifactId>weld-se</artifactId>
+        <version>2.4.5.Final</version>
         <scope>test</scope>
       </dependency>
 
@@ -242,11 +254,11 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.version>4.12</junit.version>
-    <mokito.version>1.10.19</mokito.version>
-    <dbsetup.version>1.6.0</dbsetup.version>
+    <mokito.version>2.12.0</mokito.version>
+    <dbsetup.version>2.1.0</dbsetup.version>
     <resteasy.version>3.0.11.Final</resteasy.version>
-    <arquillian.version>1.1.11.Final</arquillian.version>
-    <arquillian.wildfly.version>2.0.0.Final</arquillian.wildfly.version>
+    <arquillian.version>1.1.14.Final</arquillian.version>
+    <arquillian.wildfly.version>2.1.0.Final</arquillian.wildfly.version>
   </properties>
 
 </project>
