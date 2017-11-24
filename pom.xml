@@ -134,11 +134,6 @@
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.wildfly.arquillian</groupId>
-        <artifactId>wildfly-arquillian-container-remote</artifactId>
-        <version>${arquillian.wildfly.version}</version>
-      </dependency>
-      <dependency>
         <groupId>org.jboss.arquillian.core</groupId>
         <artifactId>arquillian-core-api</artifactId>
         <version>${arquillian.version}</version>
@@ -229,25 +224,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.3</version>
-          <configuration>
-            <localCheckout>true</localCheckout>
-            <pushChanges>false</pushChanges>
-            <autoVersionSubmodules>true</autoVersionSubmodules>
-            <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
-            <goals>deploy</goals>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
