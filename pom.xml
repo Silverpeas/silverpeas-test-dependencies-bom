@@ -226,6 +226,8 @@
   </dependencyManagement>
 
   <properties>
+    <!-- property used by the CI to both deploy a build version and release the next stable version -->
+    <next.release>1.0</next.release>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
