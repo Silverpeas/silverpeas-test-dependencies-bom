@@ -187,20 +187,24 @@
       </dependency>
       <!-- LDAP test dependencies BEGIN -->
       <dependency>
-        <groupId>org.forgerock.opendj</groupId>
+        <groupId>org.forgerock.ce.opendj</groupId>
         <artifactId>opendj-server</artifactId>
         <version>2.6.2</version>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.forgerock.commons</groupId>
+        <groupId>org.forgerock.ce.commons</groupId>
         <artifactId>json-resource-servlet</artifactId>
-        <version>2.4.2</version>
+        <version>2.0.4</version>
         <scope>test</scope>
         <exclusions>
           <exclusion>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-core-asl</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
           </exclusion>
         </exclusions>
       </dependency>
