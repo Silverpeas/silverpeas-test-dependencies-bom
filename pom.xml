@@ -30,7 +30,7 @@
 
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-test-dependencies-bom</artifactId>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Silverpeas Test Dependencies BOM</name>
   <description>A BOM with all the dependencies required to build and run the unit and the integration tests of Silverpeas</description>
@@ -251,7 +251,7 @@
 
   <properties>
     <!-- property used by the CI to both deploy a build version and release the next stable version -->
-    <next.release>1.1</next.release>
+    <next.release>1.2</next.release>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
