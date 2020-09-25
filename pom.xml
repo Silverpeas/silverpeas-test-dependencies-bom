@@ -30,7 +30,7 @@
 
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-test-dependencies-bom</artifactId>
-  <version>1.2.1-SNAPSHOT</version>
+  <version>1.2.1</version>
   <packaging>pom</packaging>
   <name>Silverpeas Test Dependencies BOM</name>
   <description>A BOM with all the dependencies required to build and run the unit and the integration tests of Silverpeas</description>
@@ -41,7 +41,7 @@
     <developerConnection>scm:git:git@github.com:Silverpeas/silverpeas-test-dependencies-bom.git
     </developerConnection>
     <url>http://gitub.com/Silverpeas/silverpeas-test-dependencies-bom.git</url>
-    <tag>1.2</tag>
+    <tag>1.2.1</tag>
   </scm>
 
   <distributionManagement>
