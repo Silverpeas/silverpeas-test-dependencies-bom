@@ -176,6 +176,12 @@
         <artifactId>wildfly-arquillian-container-managed</artifactId>
         <version>${arquillian.wildfly.version}</version>
         <scope>test</scope>
+        <exclusions>
+          <exclusion>
+            <groupId>org.picketbox</groupId>
+            <artifactId>picketbox</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.core</groupId>
@@ -276,7 +282,7 @@
     <dbsetup.version>2.1.0</dbsetup.version>
     <resteasy.version>3.11.2.Final</resteasy.version>
     <arquillian.version>1.6.0.Final</arquillian.version>
-    <arquillian.wildfly.version>2.2.0.Final</arquillian.wildfly.version>
+    <arquillian.wildfly.version>3.0.1.Final</arquillian.wildfly.version>
   </properties>
 
 </project>
