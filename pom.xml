@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright (C) 2000 - 2020 Silverpeas
+    Copyright (C) 2000 - 2021 Silverpeas
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
@@ -82,7 +82,8 @@
       <dependency>
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-runner</artifactId>
-        <version>1.7.0</version>
+        <version>1.7.1</version>
+        <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.junit.vintage</groupId>
@@ -281,7 +282,7 @@
     <next.release>1.5</next.release>
     <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>5.7.0</junit.version>
+    <junit.version>5.7.1</junit.version>
     <mokito.version>3.7.7</mokito.version>
     <weld-junit.version>2.0.2.Final</weld-junit.version>
     <dbsetup.version>2.1.0</dbsetup.version>
