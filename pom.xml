@@ -179,7 +179,7 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.arquillian</groupId>
-        <artifactId>wildfly-arquillian-container-managed</artifactId>
+        <artifactId>wildfly-arquillian-container-remote</artifactId>
         <version>${arquillian.wildfly.version}</version>
         <scope>test</scope>
         <exclusions>
