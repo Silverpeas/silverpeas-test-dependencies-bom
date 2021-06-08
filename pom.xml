@@ -262,7 +262,7 @@
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>resteasy-jaxrs</artifactId>
-        <version>${resteasy.version}</version>
+        <version>3.15.1.Final</version>
         <scope>test</scope>
       </dependency>
 
@@ -292,7 +292,7 @@
     <mokito.version>3.7.7</mokito.version>
     <weld-junit.version>2.0.2.Final</weld-junit.version>
     <dbsetup.version>2.1.0</dbsetup.version>
-    <resteasy.version>4.5.7.Final</resteasy.version>
+    <resteasy.version>4.5.12.Final</resteasy.version>
     <arquillian.version>1.6.0.Final</arquillian.version>
     <arquillian.wildfly.version>3.0.1.Final</arquillian.wildfly.version>
   </properties>
