@@ -310,7 +310,16 @@
         <version>1.9.4</version>
         <scope>test</scope>
       </dependency>
+
+      <!-- for testing with MongDB -->
+      <dependency>
+        <groupId>de.flapdoodle.embed</groupId>
+        <artifactId>de.flapdoodle.embed.mongo</artifactId>
+        <version>4.4.1</version>
+        <scope>test</scope>
+      </dependency>
     </dependencies>
+
   </dependencyManagement>
 
   <properties>
