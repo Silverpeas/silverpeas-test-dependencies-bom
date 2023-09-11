@@ -32,7 +32,7 @@
 
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-test-dependencies-bom</artifactId>
-  <version>1.7-SNAPSHOT</version>
+  <version>1.6-feature13271</version>
   <packaging>pom</packaging>
   <name>Silverpeas Test Dependencies BOM</name>
   <description>A BOM with all the dependencies required to build and run the unit and the integration tests of Silverpeas</description>
@@ -197,33 +197,45 @@
         </exclusions>
       </dependency>
       <!-- end TODO -->
+      <!--
       <dependency>
       	<groupId>org.jboss.spec</groupId>
-      	<artifactId>jboss-javaee-all-8.0</artifactId>
-        <version>1.0.4.Final</version>
+      	<artifactId>jboss-jakarta-all-8.0</artifactId>
+        <version>1.0.0.Final</version>
       	<scope>test</scope>
+      </dependency>
+      -->
+      <!-- Jakarta JSON Processing (JSON-P) implementation -->
+      <dependency>
+        <groupId>org.eclipse.parsson</groupId>
+        <artifactId>jakarta.json</artifactId>
+        <version>1.1.4</version>
+        <scope>test</scope>
+      </dependency>
+      <!--  JSR-367 (JSON-B) implementation -->
+      <dependency>
+        <groupId>org.eclipse</groupId>
+        <artifactId>yasson</artifactId>
+        <version>3.0.3</version>
+        <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.glassfish.jersey.core</groupId>
         <artifactId>jersey-common</artifactId>
-        <version>2.26</version>
+        <version>3.1.3</version>
         <scope>test</scope>
         <exclusions>
           <exclusion>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.junit.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
           </exclusion>
           <exclusion>
             <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-library</artifactId>
+            <artifactId>hamcrest</artifactId>
           </exclusion>
           <exclusion>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.jmockit</groupId>
-            <artifactId>jmockit</artifactId>
           </exclusion>
         </exclusions>
       </dependency>
@@ -305,7 +317,7 @@
       <dependency>
         <groupId>com.icegreen</groupId>
         <artifactId>greenmail</artifactId>
-        <version>1.6.13</version>
+        <version>2.0.0</version>
         <scope>test</scope>
       </dependency>
 
@@ -344,11 +356,11 @@
     <junit.version>5.11.4</junit.version>
     <mokito.version>5.14.2</mokito.version>
     <byte-buddy.version>1.15.11</byte-buddy.version>
-    <weld-junit.version>2.0.2.Final</weld-junit.version>
+    <weld-junit.version>4.0.0.Final</weld-junit.version>
     <dbsetup.version>2.1.0</dbsetup.version>
     <resteasy.version>4.7.7.Final</resteasy.version>
-    <arquillian.version>1.7.0.Final</arquillian.version>
-    <arquillian.wildfly.version>3.0.1.Final</arquillian.wildfly.version>
+    <arquillian.version>1.7.1.Final</arquillian.version>
+    <arquillian.wildfly.version>5.0.1.Final</arquillian.wildfly.version>
   </properties>
 
 </project>
