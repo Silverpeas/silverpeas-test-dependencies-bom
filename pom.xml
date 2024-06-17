@@ -32,7 +32,7 @@
 
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-test-dependencies-bom</artifactId>
-  <version>1.6</version>
+  <version>1.7-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Silverpeas Test Dependencies BOM</name>
   <description>A BOM with all the dependencies required to build and run the unit and the integration tests of Silverpeas</description>
@@ -43,7 +43,7 @@
     <developerConnection>scm:git:git@github.com:Silverpeas/silverpeas-test-dependencies-bom.git
     </developerConnection>
     <url>https://gitub.com/Silverpeas/silverpeas-test-dependencies-bom.git</url>
-    <tag>1.6</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
@@ -326,7 +326,7 @@
 
   <properties>
     <!-- property used by the CI to both deploy a build version and release the next stable version -->
-    <next.release>1.6</next.release>
+    <next.release>1.7</next.release>
     <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.version>5.9.3</junit.version>
