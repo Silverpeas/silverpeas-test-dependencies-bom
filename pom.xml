@@ -329,9 +329,9 @@
     <next.release>1.6.2</next.release>
     <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>5.9.3</junit.version>
-    <mokito.version>5.3.1</mokito.version>
-    <byte-buddy.version>1.14.1</byte-buddy.version>
+    <junit.version>5.11.4</junit.version>
+    <mokito.version>5.14.2</mokito.version>
+    <byte-buddy.version>1.15.11</byte-buddy.version>
     <weld-junit.version>2.0.2.Final</weld-junit.version>
     <dbsetup.version>2.1.0</dbsetup.version>
     <resteasy.version>4.7.7.Final</resteasy.version>
