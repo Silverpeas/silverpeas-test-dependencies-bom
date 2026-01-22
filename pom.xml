@@ -32,7 +32,7 @@
 
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-test-dependencies-bom</artifactId>
-  <version>1.6-feature13271</version>
+  <version>2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Silverpeas Test Dependencies BOM</name>
   <description>A BOM with all the dependencies required to build and run the unit and the integration tests of Silverpeas</description>
@@ -197,28 +197,7 @@
         </exclusions>
       </dependency>
       <!-- end TODO -->
-      <!--
-      <dependency>
-      	<groupId>org.jboss.spec</groupId>
-      	<artifactId>jboss-jakarta-all-8.0</artifactId>
-        <version>1.0.0.Final</version>
-      	<scope>test</scope>
-      </dependency>
-      -->
-      <!-- Jakarta JSON Processing (JSON-P) implementation -->
-      <dependency>
-        <groupId>org.eclipse.parsson</groupId>
-        <artifactId>jakarta.json</artifactId>
-        <version>1.1.4</version>
-        <scope>test</scope>
-      </dependency>
-      <!--  JSR-367 (JSON-B) implementation -->
-      <dependency>
-        <groupId>org.eclipse</groupId>
-        <artifactId>yasson</artifactId>
-        <version>3.0.3</version>
-        <scope>test</scope>
-      </dependency>
+
       <dependency>
         <groupId>org.glassfish.jersey.core</groupId>
         <artifactId>jersey-common</artifactId>
@@ -251,12 +230,6 @@
         <artifactId>wildfly-arquillian-container-remote</artifactId>
         <version>${arquillian.wildfly.version}</version>
         <scope>test</scope>
-        <exclusions>
-          <exclusion>
-            <groupId>org.picketbox</groupId>
-            <artifactId>picketbox</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.core</groupId>
@@ -273,7 +246,7 @@
       <dependency>
         <groupId>org.jboss.shrinkwrap.resolver</groupId>
         <artifactId>shrinkwrap-resolver-impl-maven</artifactId>
-        <version>3.1.4</version>
+        <version>3.3.4</version>
         <scope>test</scope>
       </dependency>
       <dependency>
@@ -317,7 +290,13 @@
       <dependency>
         <groupId>com.icegreen</groupId>
         <artifactId>greenmail</artifactId>
-        <version>2.0.0</version>
+        <version>2.1.7</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.sun.mail</groupId>
+        <artifactId>jakarta.mail</artifactId>
+        <version>2.0.2</version>
         <scope>test</scope>
       </dependency>
 
@@ -350,16 +329,16 @@
 
   <properties>
     <!-- property used by the CI to both deploy a build version and release the next stable version -->
-    <next.release>1.7</next.release>
+    <next.release>2.0</next.release>
     <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.version>5.11.4</junit.version>
-    <mokito.version>5.14.2</mokito.version>
-    <byte-buddy.version>1.15.11</byte-buddy.version>
-    <weld-junit.version>4.0.0.Final</weld-junit.version>
+    <mokito.version>5.20.0</mokito.version>
+    <byte-buddy.version>1.18.1</byte-buddy.version>
+    <weld-junit.version>4.0.5.Final</weld-junit.version>
     <dbsetup.version>2.1.0</dbsetup.version>
-    <resteasy.version>4.7.7.Final</resteasy.version>
-    <arquillian.version>1.7.1.Final</arquillian.version>
+    <resteasy.version>6.2.14.Final</resteasy.version>
+    <arquillian.version>1.10.0.Final</arquillian.version>
     <arquillian.wildfly.version>5.0.1.Final</arquillian.wildfly.version>
   </properties>
 
